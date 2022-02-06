@@ -1,0 +1,34 @@
+#inicio > div {
+    background-image: url('../img/inicioFundo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    padding-top: 10%;
+    padding-bottom: min( 50vw, 30%);
+    padding-right: min( 60vw, 60%);
+}
+
+@media(max-width: 850px) {
+    #inicio > div {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 70vw;
+    }
+}
+
+@media(max-width: 600px) {
+    #inicio > div {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 80vw;
+    }
+}
+
+@media(max-width: 550px) {
+    #inicio > div {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 90vw;
+    }
+}
