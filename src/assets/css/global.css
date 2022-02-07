@@ -1,9 +1,7 @@
 :root {
-    --monocromaticoA: #325927;
-    --monocromaticoB: #B2DFA5;
-    --monocromaticoC: #7BD860;
-    --monocromaticoD: #475942;
-    --monocromaticoE: #5DA649;
+    --verdeClaro: #B2DFA5;
+    --verdePrincipal: #7BD860;
+    --verdeEscuro: #5DA649;
 }
 
 html, body {
@@ -16,8 +14,8 @@ body {
     flex-direction: column;
     align-items: center;
 
-    background: var(--monocromaticoC);
-    background: linear-gradient(0deg, var(--monocromaticoC) 20%, var(--monocromaticoB) 50%, var(--monocromaticoC) 80%);
+    background: var(--verdePrincipal);
+    background: linear-gradient(0deg, var(--verdePrincipal) 20%, var(--verdeClaro) 50%, var(--verdePrincipal) 80%);
 
     -webkit-font-smoothing: antialiased;
 }
