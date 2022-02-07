@@ -32,5 +32,10 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 
 .containerInterface {
-    min-height: calc(100vh - 40px);
+    margin-top: 56px;
+    min-height: calc(100vh - 56px);
+}
+
+.containerInterface:last-of-type {
+    min-height: calc(100vh - 56px - 24px);
 }
